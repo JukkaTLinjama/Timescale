@@ -1,0 +1,12 @@
+{
+  "folders": [
+    { "path": "../log-aikajana" },
+    { "path": "../log-aikajana-v33" },
+    { "path": "./" }
+  ],
+  "settings": {
+    "editor.minimap.enabled": false,
+    "search.useIgnoreFiles": true,
+    "files.exclude": { "**/.git": true, "**/.DS_Store": true }
+  }
+}
