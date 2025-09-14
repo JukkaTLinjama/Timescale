@@ -1,12 +1,25 @@
 {
   "folders": [
-    { "path": "../log-aikajana" },
-    { "path": "../log-aikajana-v33" },
-    { "path": "./" }
+    {
+      "path": "../log-aikajana"
+    },
+    {
+      "path": "../log-aikajana-v33"
+    },
+    {
+      "path": "./"
+    },
+    {
+      "path": "../timescale_dev"
+    }
   ],
   "settings": {
     "editor.minimap.enabled": false,
     "search.useIgnoreFiles": true,
-    "files.exclude": { "**/.git": true, "**/.DS_Store": true }
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true
+    },
+    "liveServer.settings.multiRootWorkspaceName": "timescale_dev"
   }
 }
