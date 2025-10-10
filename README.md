@@ -53,7 +53,12 @@ English translation and localization are planned for future versions.
 ## Version History
 - **v1–32:** Single-file HTML prototypes.  
 - **v33+:** Modular structure (`index.html` + external CSS/JS + `eventsDB.json`).  
-- **v35:** Improved zoom bar, better layering, mobile support.  
+- **v35:** Improved zoom bar, better layering, mobile support.
+
+## Present Version 43 Update
+
+See [readmev43.md](./readmev43.md) for the current architecture overview,  
+metadata-based rendering, and upcoming roadmap (inline editor + realtime theme).
 
 See also the original [README.md of log-aikajana (v1–32)](https://github.com/JukkaTLinjama/log-aikajana/blob/main/README.md).
 
