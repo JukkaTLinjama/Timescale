@@ -72,3 +72,48 @@ The goal is that **anyone can try their own themes and visualize them** directly
 ## License
 Shared as an **open experiment** under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
 Enjoy, use, and share!
+
+---
+
+## Current Development Status (v50.2)
+
+Since the last documented architecture update (**v43**), the project has evolved into a more clearly structured system with strict separation between:
+
+- **data preparation**
+- **pure rendering**
+- **editor / workflow tooling**
+
+The timeline renderer (`timeline.js`) is now a *pure, deterministic renderer* that does not load or mutate data.  
+All editing, preview, and commit workflows are handled outside the renderer.
+
+A concise architectural status description is available here:
+
+👉 **[Development Status Since v43](./assets/Development_Status_v43_v50.md)**
+
+---
+
+### Screenshots (v50.2)
+
+Below are screenshots illustrating the current state of the system:
+
+#### Main timeline view
+
+![Timeline v50.2](./assets/v50.2screen.png)
+
+#### Preview & editor workflow
+
+![Editor v50.2](./assets/v50.2screen-editor.png)
+
+#### Present mode & info overlay
+
+![Present & Info v50.2](./assets/v50.2screen-present-info.png)
+
+---
+
+**Status summary**
+
+- Stable mobile behavior
+- Data-driven prefocus (no DOM feedback loops)
+- Explicit layer model with active-card overlay
+- Preview → draft → commit workflow operational
+- Renderer fully decoupled from editor logic
