@@ -1,5 +1,5 @@
 
-# Timescale
+# Timescale-project
 Meta repository for the **Logarithmic Timeline Visualization Project (2025)**
 
 ## Overview
@@ -13,18 +13,20 @@ It uses a **vertical logarithmic scale** to make both cosmic and human timescale
 The visualization is implemented with **HTML, CSS, JavaScript (D3.js)** and can run in any modern browser.  
 All data is stored in a **JSON event database** (`eventsDB.json`).
 
-## Working Repositories
-- [log-aikajana](https://github.com/JukkaTLinjama/log-aikajana) – versions **v1–32**, single-file HTML prototypes  
-- [log-aikajana-v33](https://github.com/JukkaTLinjama/log-aikajana-v33) – versions **v33+**, modular structure with external CSS/JS/JSON  
-
-⚠️ **Note:** The working code and event data are currently written in **Finnish** (labels, comments, UI strings).  
-English translation and localization are planned for future versions.
-
 ## Goals
 - Provide an **intuitive sense of scale** across 13.8 billion years.  
 - Enable anyone to **experiment with their own themes** using the JSON editor.  
 - Support **mobile-friendly browsing** and interactive exploration.  
 - Maintain a clear version history for incremental improvements.
+  
+## Working Repositories
+- [log-aikajana](https://github.com/JukkaTLinjama/log-aikajana) – versions **v1–32**, single-file HTML prototypes  
+- [log-aikajana-v33](https://github.com/JukkaTLinjama/log-aikajana-v33) – versions **v33+**, modular structure with external CSS/JS/JSON
+-  -- versions **v43 to v50**
+
+⚠️ **Note:** The working code and event data are currently written in **Finnish** (labels, comments, UI strings).  
+English translation and localization are planned for future versions.
+
 
 ## Structure
 - `index.html` – current main entry point (v33+ architecture)  
