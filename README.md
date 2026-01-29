@@ -57,7 +57,7 @@ English translation and localization are planned for future versions.
 - **v33+:** Modular structure (`index.html` + external CSS/JS + `eventsDB.json`).  
 - **v35:** Improved zoom bar, better layering, mobile support.
 
-## Present Version 43 Update
+## .. Version 43 Update
 
 See [readmev43.md](./readmev43.md) for the current architecture overview,  
 metadata-based rendering, and upcoming roadmap (inline editor + realtime theme).
@@ -92,6 +92,7 @@ A concise architectural status description is available here:
 
 👉 **[Development Status Since v43](./assets/Development_Status_v43_v50.md)**
 
+more in detail: https://github.com/JukkaTLinjama/timescale_dev/blob/main/docs/assets/readme_v50status.md
 ---
 
 ### Screenshots (v50.2)
