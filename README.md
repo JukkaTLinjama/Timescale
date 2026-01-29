@@ -22,7 +22,7 @@ All data is stored in a **JSON event database** (`eventsDB.json`).
 ## Working Repositories
 - [log-aikajana](https://github.com/JukkaTLinjama/log-aikajana) – versions **v1–32**, single-file HTML prototypes  
 - [log-aikajana-v33](https://github.com/JukkaTLinjama/log-aikajana-v33) – versions **v33+**, modular structure with external CSS/JS/JSON
--  -- versions **v43 to v50**
+-  https://github.com/JukkaTLinjama/timescale_dev -- versions **v43 to v50**
 
 ⚠️ **Note:** The working code and event data are currently written in **Finnish** (labels, comments, UI strings).  
 English translation and localization are planned for future versions.
